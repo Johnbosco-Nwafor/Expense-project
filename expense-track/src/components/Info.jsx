@@ -11,13 +11,13 @@ const Info = ({title, subTitle}) => {
         </div>
 
         <div className='flex flex-row items-center gap-10'>
-            <div className='px-4 py-2 flex flex-row items-center gap-2 border border-slate-800 dark:border-slate-500 rounded-lg'>
+            <div className='px-2 py-2 flex flex-row items-center gap-2 border border-slate-800 dark:border-slate-500 rounded-lg w-2/3'>
                 <CiSearch className='text-black dark:text-slate-400 cursor-pointer' size={24}/>
 
                 <input type="text" placeholder='Search now...' className='outline-none text-black dark:text-slate-400'/>
             </div>
 
-            <div className='px-4 py-2 flex flex-row items-center bg-violet-800 text-white rounded-md gap-2'>
+            <div className='px-4 py-2 flex flex-row items-center bg-violet-800 text-white rounded-md gap-2 w-1/3'>
                 <IoFilter size={24}/>
                 <p className='text-base'>Filter By</p>
             </div>
