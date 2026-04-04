@@ -10,7 +10,7 @@ const Info = ({title, subTitle}) => {
             <span className='text-lg text-black dark:text-slate-500'>{subTitle}</span>
         </div>
 
-        <div className='flex flex-row items-center gap-10'>
+        <div className='flex flex-col md:flex-row items-center gap-10'>
             <div className='px-2 py-2 flex flex-row items-center gap-2 border border-slate-800 dark:border-slate-500 rounded-lg w-2/3'>
                 <CiSearch className='text-black dark:text-slate-400 cursor-pointer' size={24}/>
 
