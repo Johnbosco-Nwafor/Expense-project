@@ -7,6 +7,7 @@ import Chart from './components/Chart'
 import Doughnut from './components/Doughnut'
 import Transactions from './components/Transactions'
 import Accounts from './components/Accounts'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true)
@@ -45,6 +46,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      <Analytics />
     </main>
   )
 }
