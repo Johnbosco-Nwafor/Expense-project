@@ -37,9 +37,9 @@ const Start = () => {
             data.map((items, index)=>(
                 <div
                  key={index}
-                 className='flex flex-row 2xl:min-w-96 py-12 px-6 items-center justify-between border border-gray-100 dark:border-slate-800 bg-gray-50 dark:bg-slate-800 rounded-xl gap-6'
+                 className='flex flex-col lg:flex-row 2xl:min-w-96 py-12 px-12 items-center justify-between border border-gray-100 dark:border-slate-800 bg-gray-50 dark:bg-slate-800 rounded-xl gap-6'
                 >
-                    <div className='flex items-center gap-2'>
+                    <div className='flex flex-row justify-between gap-2 w-full'>
                         <div className={`w-12 h-12 flex items-center justify-center rounded-full ${ICON_STYLES[index]}`}>
                             {
                                 items.icons
@@ -52,7 +52,7 @@ const Start = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='flex w-full justify-between lg:flex-col '>
                         <p className={`${items.increase > 0 ? "text-emerald-700" : "text-rose-700"} flex items-center gap-1 font-bold`}>
                             {items.increase > 0 ? <IoMdArrowUp size={22}/> : <IoMdArrowDown size={22}/>}
 
