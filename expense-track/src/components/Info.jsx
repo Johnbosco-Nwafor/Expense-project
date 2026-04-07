@@ -17,7 +17,7 @@ const Info = ({title, subTitle}) => {
                 <input type="text" placeholder='Search now...' className='outline-none text-black dark:text-slate-400'/>
             </div>
 
-            <div className='px-4 py-2 flex flex-row items-center bg-violet-800 text-white rounded-md gap-2 w-1/3'>
+            <div className='px-4 py-2 flex flex-row items-center bg-violet-800 text-white rounded-md gap-2 w-full'>
                 <IoFilter size={24}/>
                 <p className='text-base'>Filter By</p>
             </div>
