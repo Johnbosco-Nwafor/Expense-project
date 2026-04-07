@@ -17,7 +17,7 @@ const Navbar = ({isDarkMode, isMenu, toggleMenu, toggleTheme}) => {
                 <div className='w-10 h-10 md:w-12 md:h-12 rounded-xl bg-violet-800 flex items-center justify-center cursor-pointer gap-2'>
                     <RiCurrencyLine className='text-3xl text-white hover:animate-spin'/>
                 </div>
-                <span className='text-black dark:text-slate-200 text-xl font-bold'>My-Finance</span>
+                <span className='text-black dark:text-slate-200 text-xl font-bold hidden lg:block'>My-Finance</span>
             </div>
 
             <div className='hidden md:flex items-center gap-4'>
@@ -41,7 +41,7 @@ const Navbar = ({isDarkMode, isMenu, toggleMenu, toggleTheme}) => {
                 />
 
                 <div className='flex flex-row items-center gap-2'>
-                    <img src={Avatar} className='w-12 h-12 rounded-full object-cover'/>
+                    <img src={Avatar} className='w-12 h-12 rounded-full object-cover hidden lg:block'/>
 
                     <div className='hidden md:block'>
                         <p className='text-xl font-semibold text-black dark:text-slate-400'>John Doe</p>
