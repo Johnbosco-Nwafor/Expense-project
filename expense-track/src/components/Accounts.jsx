@@ -48,7 +48,7 @@ const data = [
 
 const Accounts = () => {
   return (
-    <div className='w-full md:w-1/3'>
+    <div className='w-full lg:w-1/3'>
       <Title title="Accounts"/>
       <p className='text-sm text-black dark:text-slate-500'>View all your accounts</p>
 
@@ -57,9 +57,9 @@ const Accounts = () => {
           data.map((items, index)=>(
             <div 
              key={index}
-             className='flex items-center justify-between gap-6 mt-6 w-full'
+             className='flex flex-row justify-between mt-6 w-full'
             >
-             <div className='flex items-center gap-2'>
+             <div className='flex items-center gap-2 w-[60%]'>
               {items.icon}
               <div>
                 <p className='text-black dark:text-slate-400 text-lg'>{items.name}</p>
@@ -67,7 +67,7 @@ const Accounts = () => {
               </div>
              </div>
 
-             <div>
+             <div className='w-[40%]'>
               <p className='text-lg text-black dark:text-slate-400'>${items.amount}</p>
               <span className='text-violet-700'>Account Balance</span>
              </div>
