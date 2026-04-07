@@ -59,7 +59,7 @@ const Accounts = () => {
              key={index}
              className='flex flex-row justify-between mt-6 w-full'
             >
-             <div className='flex items-center gap-2 w-[60%] pr-6'>
+             <div className='flex items-center gap-2 w-[60%] pl-6'>
               {items.icon}
               <div>
                 <p className='text-black dark:text-slate-400 text-lg'>{items.name}</p>
