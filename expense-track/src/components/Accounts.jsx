@@ -60,7 +60,7 @@ const Accounts = () => {
              className='flex flex-row justify-between mt-6 w-full gap-6'
             >
              <div className='w-[55%]'>
-              <div className='flex items-center gap-2 w-[55%] '>
+              <div className='flex items-center gap-2 '>
               {items.icon}
               <div>
                 <p className='text-black dark:text-slate-400 text-lg'>{items.name}</p>
