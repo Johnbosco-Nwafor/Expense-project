@@ -57,9 +57,9 @@ const Accounts = () => {
           data.map((items, index)=>(
             <div 
              key={index}
-             className='flex flex-row justify-between mt-6 w-full'
+             className='flex flex-row justify-between mt-6 w-full gap-6'
             >
-             <div className='flex items-center gap-2 w-[60%] pl-6'>
+             <div className='flex items-center gap-2 w-[55%] '>
               {items.icon}
               <div>
                 <p className='text-black dark:text-slate-400 text-lg'>{items.name}</p>
