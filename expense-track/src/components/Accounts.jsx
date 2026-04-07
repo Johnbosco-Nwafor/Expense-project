@@ -59,12 +59,14 @@ const Accounts = () => {
              key={index}
              className='flex flex-row justify-between mt-6 w-full gap-6'
             >
-             <div className='flex items-center gap-2 w-[55%] '>
+             <div className='w-[55%]'>
+              <div className='flex items-center gap-2 w-[55%] '>
               {items.icon}
               <div>
                 <p className='text-black dark:text-slate-400 text-lg'>{items.name}</p>
                 <span className='text-sm text-black dark:text-slate-400'>{items.account}</span>
               </div>
+             </div>
              </div>
 
              <div className='w-[40%]'>
