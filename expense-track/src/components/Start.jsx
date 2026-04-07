@@ -37,7 +37,7 @@ const Start = () => {
             data.map((items, index)=>(
                 <div
                  key={index}
-                 className='flex flex-col lg:flex-row 2xl:min-w-96 py-12 px-12 items-center justify-between border border-gray-100 dark:border-slate-800 bg-gray-50 dark:bg-slate-800 rounded-xl gap-6'
+                 className='flex flex-col lg:flex-row 2xl:min-w-96 py-12 px-4 items-center justify-between border border-gray-100 dark:border-slate-800 bg-gray-50 dark:bg-slate-800 rounded-xl gap-6'
                 >
                     <div className='flex flex-row justify-between gap-2 w-full'>
                         <div className={`w-12 h-12 flex items-center justify-center rounded-full ${ICON_STYLES[index]}`}>
