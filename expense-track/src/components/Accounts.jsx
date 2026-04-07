@@ -69,7 +69,7 @@ const Accounts = () => {
 
              <div className='w-[40%]'>
               <p className='text-lg text-black dark:text-slate-400'>${items.amount}</p>
-              <span className='text-violet-700'>Account Balance</span>
+              <span className='text-violet-700'>Account Bal...</span>
              </div>
             </div>
           ))
