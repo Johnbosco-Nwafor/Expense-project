@@ -48,7 +48,7 @@ const data = [
 
 const Accounts = () => {
   return (
-    <div className='w-full lg:w-1/3'>
+    <div className='w-full lg:w-1/3 mb-6 lg:mb-0'>
       <Title title="Accounts"/>
       <p className='text-sm text-black dark:text-slate-500'>View all your accounts</p>
 

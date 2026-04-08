@@ -34,7 +34,7 @@ const Navbar = ({isDarkMode, isMenu, toggleMenu, toggleTheme}) => {
                 }
             </div>
 
-            <div className='flex flex-row items-center gap-4 md:gap-10'>
+            <div className='flex flex-row items-center gap-2 lg:gap-4 md:gap-10'>
                 <ThemeSwitch 
                  isDarkMode={isDarkMode}
                  toggleTheme={toggleTheme}
@@ -66,7 +66,7 @@ const Navbar = ({isDarkMode, isMenu, toggleMenu, toggleTheme}) => {
             </div>
         </div>
 
-        <div className={`${isMenu ? "hidden" : "block"} md:hidden flex flex-col gap-4 mt-6 px-0`}>
+        <div className={`${isMenu ? "hidden" : "block"} lg:hidden flex flex-col gap-4 mt-6 px-0`}>
             {
                 links.map((items, index)=>(
                     <div

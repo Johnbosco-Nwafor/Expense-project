@@ -22,8 +22,8 @@ const Chart = () => {
     <div className='w-full md:w-2/3'>
         <Title title="Transaction Activity"/>
 
-        <ResponsiveContainer width={"100%"} height={500} className="mt-5">
-            <LineChart width={500} height={300} data={data}>
+        <ResponsiveContainer width={"100%"} height={500} className="mt-5 outline-0">
+            <LineChart width={500} height={300} data={data} className='outline-none'>
                 <CartesianGrid strokeDasharray="1 1"/>
                 <YAxis />
                 <XAxis />
